@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: auto;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    font-family: 'Helvetica';
+    opacity: 0.9;
+}
+
+/* Banner */
+
+.banner {
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    width: 65%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.liste {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mission,
+.featured,
+.locations {
+    margin-right: 5px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+  
+/* Main */
+
+main {
+    height: 769px;
+    width: 100%;
+}
+.container{
+    width: 95%;
+    display: flex;
+    top: 69px;
+    position: relative;
+    margin: auto 40px;
+}
+
+.titre {
+    width: 100%;
+}
+
+.container .titre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    left: 0;
+    right: 0;
+    top: 40%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.container .background{
+    width: 100%;
+}
+
+/* Pictures */
+
+section {
+    width: 95%;
+    height: 700px;
+    margin: 0 40px;
+}
+.tea-month {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    background-color: black;
+    text-align: center;
+    width: 95%;
+}
+
+.tea-month h2 h4{
+    left: 0;
+    width: 1000px;
+}
+
+.images {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#myrtle {
+    margin-left: 175px;
+}
+
+#bedford {
+    margin-right: 175px;
+}
+
+.images img {
+    margin: 0 25px;
+}
+
+.caption {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+/*location*/
+
+.location {
+    width: 95%;
+    height: 700px;
+    position: relative;
+    background-image: url("resources/images/img-locations-background.jpeg");
+}
+
+.location img {
+    width: 100%;
+    height: 700px;
+}
+
+.titre {
+    height: 100px;
+    width: 100%;
+    top: 53px;
+}
+
+.location .titre {
+    position: absolute;
+    text-align: center;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    top: 100px;
+    position: absolute;
+}
+
+#downtown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid orange;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    position: relative;
+}
+
+#east {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid orange;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    position: relative;
+}
+
+#oakdale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid orange;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 500px;
+}
+
+#box {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer*/
+
+footer {
+    text-align: left;
+    margin: 50px 0 25px 20px;
+
+}
